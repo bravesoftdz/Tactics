@@ -1,0 +1,339 @@
+object Form1: TForm1
+  Left = 1337
+  Height = 416
+  Top = 114
+  Width = 422
+  Caption = 'Form1'
+  ClientHeight = 416
+  ClientWidth = 422
+  OnActivate = FormActivate
+  LCLVersion = '1.2.4.0'
+  object Bevel1: TBevel
+    Left = 0
+    Height = 1018
+    Top = 0
+    Width = 168
+  end
+  object Bevel2: TBevel
+    Left = 1752
+    Height = 1018
+    Top = 0
+    Width = 168
+  end
+  object Bevel3: TBevel
+    Left = 184
+    Height = 218
+    Top = 800
+    Width = 1552
+  end
+  object Label1: TLabel
+    Left = 176
+    Height = 784
+    Top = 8
+    Width = 1568
+    AutoSize = False
+    Color = clWhite
+    ParentColor = False
+    Transparent = False
+  end
+  object P1U: TButton
+    Left = 48
+    Height = 75
+    Top = 32
+    Width = 75
+    Caption = 'Gore'
+    OnClick = P1UClick
+    TabOrder = 0
+  end
+  object P1L: TButton
+    Left = 8
+    Height = 75
+    Top = 112
+    Width = 75
+    Caption = 'Levo'
+    OnClick = P1LClick
+    TabOrder = 1
+  end
+  object P1R: TButton
+    Left = 88
+    Height = 75
+    Top = 112
+    Width = 75
+    Caption = 'Desno'
+    OnClick = P1RClick
+    TabOrder = 2
+  end
+  object P1D: TButton
+    Left = 48
+    Height = 75
+    Top = 192
+    Width = 75
+    Caption = 'Dole'
+    OnClick = P1DClick
+    TabOrder = 3
+  end
+  object P1F: TButton
+    Left = 24
+    Height = 105
+    Top = 296
+    Width = 123
+    Caption = 'Pukaj!'
+    OnClick = P1FClick
+    TabOrder = 4
+  end
+  object P2F: TButton
+    Left = 1776
+    Height = 105
+    Top = 296
+    Width = 123
+    Caption = 'Pukaj!'
+    OnClick = P2FClick
+    TabOrder = 5
+  end
+  object P2D: TButton
+    Left = 1800
+    Height = 75
+    Top = 192
+    Width = 75
+    Caption = 'Dole'
+    OnClick = P2DClick
+    TabOrder = 6
+  end
+  object P2L: TButton
+    Left = 1760
+    Height = 75
+    Top = 112
+    Width = 75
+    Caption = 'Levo'
+    OnClick = P2LClick
+    TabOrder = 7
+  end
+  object P2U: TButton
+    Left = 1800
+    Height = 75
+    Top = 32
+    Width = 75
+    Caption = 'Gore'
+    OnClick = P2UClick
+    TabOrder = 8
+  end
+  object P2R: TButton
+    Left = 1840
+    Height = 75
+    Top = 112
+    Width = 75
+    Caption = 'Desno'
+    OnClick = P2RClick
+    TabOrder = 9
+  end
+  object Shape1: TShape
+    Left = 224
+    Height = 49
+    Top = 544
+    Width = 49
+    Brush.Color = clLime
+  end
+  object Shape8: TShape
+    Left = 1648
+    Height = 49
+    Top = 200
+    Width = 49
+    Brush.Color = clRed
+  end
+  object Shape9: TShape
+    Left = 960
+    Height = 288
+    Top = 504
+    Width = 49
+    Brush.Color = clBlack
+  end
+  object Shape24: TShape
+    Left = 960
+    Height = 289
+    Top = 8
+    Width = 49
+    Brush.Color = clBlack
+  end
+  object Shape26: TShape
+    Left = 864
+    Height = 49
+    Top = 248
+    Width = 241
+    Brush.Color = clBlack
+  end
+  object Shape35: TShape
+    Left = 720
+    Height = 401
+    Top = 200
+    Width = 49
+    Brush.Color = clBlack
+  end
+  object Shape32: TShape
+    Left = 1200
+    Height = 401
+    Top = 200
+    Width = 49
+    Brush.Color = clBlack
+  end
+  object Shape25: TShape
+    Left = 864
+    Height = 49
+    Top = 504
+    Width = 241
+    Brush.Color = clBlack
+  end
+  object P1P: TShape
+    Left = 58
+    Height = 65
+    Top = 432
+    Width = 65
+    Visible = False
+  end
+  object P2P: TShape
+    Left = 1800
+    Height = 65
+    Top = 432
+    Width = 65
+    Visible = False
+  end
+  object Label10: TLabel
+    Left = 736
+    Height = 72
+    Top = 864
+    Width = 504
+    Alignment = taCenter
+    AutoSize = False
+    Font.Height = -40
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 224
+    Height = 136
+    Top = 840
+    Width = 233
+    Caption = 'Obnovi'
+    Font.Height = -40
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 10
+  end
+  object Button2: TButton
+    Left = 1464
+    Height = 136
+    Top = 840
+    Width = 233
+    Caption = 'Kraj'
+    Font.Height = -40
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 11
+  end
+  object Bevel4: TBevel
+    Left = 736
+    Height = 72
+    Top = 864
+    Width = 504
+  end
+  object Label2: TLabel
+    Left = 552
+    Height = 72
+    Top = 864
+    Width = 98
+    AutoSize = False
+    Caption = '0'
+    Font.Color = clLime
+    Font.Height = -40
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 1312
+    Height = 72
+    Top = 864
+    Width = 90
+    AutoSize = False
+    Caption = '0'
+    Font.Color = clRed
+    Font.Height = -40
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button3: TButton
+    Left = 864
+    Height = 41
+    Top = 815
+    Width = 243
+    Caption = 'Smeni na Tastatura'
+    OnKeyPress = Button3KeyPress
+    OnMouseEnter = Button3MouseEnter
+    OnMouseLeave = Button3MouseLeave
+    TabOrder = 12
+  end
+  object Label4: TLabel
+    Left = 1112
+    Height = 15
+    Top = 805
+    Width = 339
+    Caption = '*Ako se pritisne koe bilo drugo kopce tastaturata nema da rabori'
+    ParentColor = False
+    Visible = False
+  end
+  object P1TU: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = P1TUTimer
+    left = 192
+    top = 24
+  end
+  object P1TD: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = P1TDTimer
+    left = 288
+    top = 24
+  end
+  object P1TR: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = P1TRTimer
+    left = 224
+    top = 24
+  end
+  object P1TL: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = P1TLTimer
+    left = 256
+    top = 24
+  end
+  object P2TU: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = P2TUTimer
+    left = 192
+    top = 72
+  end
+  object P2TD: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = P2TDTimer
+    left = 288
+    top = 72
+  end
+  object P2TR: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = P2TRTimer
+    left = 224
+    top = 72
+  end
+  object P2TL: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = P2TLTimer
+    left = 256
+    top = 72
+  end
+end
